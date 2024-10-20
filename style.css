@@ -1,0 +1,151 @@
+*{
+
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.container{
+
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+
+.note-app-container{
+
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+h2 img{
+
+    width: 50px;
+    display: inline-block;
+}
+
+h2{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+}
+
+.note-box{
+
+    width: 25rem;
+    height: 10rem;
+    padding: 20px 30px;
+    resize: none;
+    font-size: 1.2rem;
+    background-color: rgb(251, 214, 165);
+    border-radius: 10px;
+    font-weight: 600;
+    margin-top:10px ;
+    
+
+}
+
+
+.textarea-container{
+
+    position: relative;
+    margin-top: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    
+
+}
+
+
+i{
+
+    font-size: 1.5rem;
+    margin: 5px;
+    &:hover{
+
+        opacity: 0.5;
+        cursor: pointer;
+    }
+}
+
+.icons {
+
+    position: absolute;
+    right:0;
+    bottom: 0;
+    padding: 10px;
+    display: none;
+    
+
+
+}
+
+.add-notes{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 15px;
+    font-size: 1.2rem;
+    font-weight: 800;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    background-color: rgb(135, 64, 201);
+    color: white;
+    &:hover{
+
+        opacity: 0.7;
+
+    }
+}
+
+
+
+.remove-icon{
+    color: red;
+    font-weight: 400800;
+}
+
+
+.cross-icon{
+
+    color: white;
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 800;
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-radius: 5px;
+
+    display: none;
+
+    &:hover{
+
+        opacity: 0.7;
+    }
+
+
+
+
+}
